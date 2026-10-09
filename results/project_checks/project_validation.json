@@ -1,0 +1,64 @@
+{
+  "all_passed": true,
+  "checks": {
+    "flat_source_layout": {
+      "passed": true
+    },
+    "no_old_active_scripts": {
+      "passed": true
+    },
+    "source_syntax": {
+      "passed": true,
+      "files": 18
+    },
+    "Q1_original_22_features": {
+      "passed": true
+    },
+    "Q1_full_data_and_domain_main": {
+      "passed": true
+    },
+    "Q1_missing_pairs_skipped": {
+      "passed": true
+    },
+    "Q1_primary_regressions_and_ridge": {
+      "passed": true
+    },
+    "Q1_nested_CV_and_external_evaluations": {
+      "passed": true
+    },
+    "Q2_numerical_checks": {
+      "passed": true,
+      "checks": 155
+    },
+    "Q2_six_models_and_OOF_selection": {
+      "passed": true
+    },
+    "Q3_numerical_checks": {
+      "passed": true,
+      "checks": 26
+    },
+    "Q4_computational_functions_unchanged": {
+      "passed": true
+    },
+    "Q4_predictions_finite_ordered": {
+      "passed": true
+    },
+    "all_pipeline_stages_actually_executed": {
+      "passed": true,
+      "scripts": [
+        "q1_mixture.py",
+        "q1_quality.py",
+        "q2_baseline.py",
+        "q2_scaling.py",
+        "q2_validate.py",
+        "q3_comparison_findings.py",
+        "q3_optimization.py",
+        "q3_validate.py",
+        "q4_evolution.py"
+      ]
+    },
+    "README_covers_every_python_file": {
+      "passed": true
+    }
+  }
+}

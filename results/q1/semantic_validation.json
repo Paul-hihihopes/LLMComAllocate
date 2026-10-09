@@ -1,0 +1,87 @@
+{
+  "sources": [
+    {
+      "dataset": "A1",
+      "set": "sample",
+      "path": "real_attachments\\A_data_value\\slimpajama_quality_signal_sample.jsonl.xz",
+      "n": 51230,
+      "sha256": "14a4eeec4c7d98efd78942ddd9c1329640527f2108e73227be449bc1a8dbe579"
+    },
+    {
+      "dataset": "A2",
+      "set": "arxiv_ext",
+      "path": "real_attachments\\A_data_value\\slimpajama_quality_extended\\arxiv_part-6777d8857c6e-000486.jsonl.xz",
+      "n": 17523,
+      "sha256": "ae1e3399f84f605d994fc60b46984d742e14abb3355d8e7a91822eae1b99e16a"
+    },
+    {
+      "dataset": "A3",
+      "set": "github_ext",
+      "path": "real_attachments\\A_data_value\\slimpajama_quality_extended\\github_part-6777d8857c6e-000275.jsonl.xz",
+      "n": 203752,
+      "sha256": "7af069c71c6027a10f2013cc14dd9d5d17855c264734f69c955544ff6cff7382"
+    }
+  ],
+  "n_records": 272505,
+  "indicators": [
+    "dsir_books",
+    "dsir_wiki",
+    "dsir_math",
+    "rps_doc_word_count",
+    "rps_doc_num_sentences",
+    "rps_doc_unigram_entropy",
+    "rps_doc_frac_unique_words",
+    "rps_doc_frac_no_alph_words",
+    "rps_doc_frac_chars_top_2gram",
+    "rps_doc_frac_chars_top_3gram",
+    "rps_lines_uppercase_letter_fraction",
+    "rps_lines_ending_with_terminal_punctution_mark",
+    "rps_lines_numerical_chars_fraction",
+    "rps_doc_mean_word_length",
+    "fineweb_edu",
+    "fluency_en",
+    "modernbert_cleanliness",
+    "modernbert_readability",
+    "modernbert_reasoning",
+    "modernbert_professionalism",
+    "qurater",
+    "ad_en"
+  ],
+  "n_indicators": 22,
+  "n_document_pairs": 11,
+  "n_valid_pairs": 6,
+  "entropy_available": false,
+  "entropy_status": "formula absent in attached document; semantic-only results",
+  "result_column": "Q_semantic_only",
+  "parameters": {
+    "lambda_semantic_requested": 0.1,
+    "lambda_entropy": 1.0,
+    "alpha": 0.5
+  },
+  "coefficient_checks": [
+    {
+      "baseline": "original",
+      "lambda_requested": 0.1,
+      "lambda_effective": 0.1,
+      "lambda_safe_supremum": 0.6522646594651716,
+      "alpha": 0.5,
+      "Q_new_min": 0.18630394634351538,
+      "Q_new_max": 0.7163130019926115
+    },
+    {
+      "baseline": "domain",
+      "lambda_requested": 0.1,
+      "lambda_effective": 0.1,
+      "lambda_safe_supremum": 1.1382701838934965,
+      "alpha": 0.5,
+      "Q_new_min": 0.27631531820188493,
+      "Q_new_max": 0.7818511477766685
+    }
+  ],
+  "validation": {},
+  "numerical_contract_checks": "passed",
+  "pooled_rate": true,
+  "aggregation": "unchanged old conflict inverse; same eligible records",
+  "missing_pair_policy": "skip absent columns; finite observations only in n_jk; fixed retained |P| denominator",
+  "duplicates_preserved": true
+}

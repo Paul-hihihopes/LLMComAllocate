@@ -1,0 +1,19 @@
+{
+  "started": "20261009_145631",
+  "python": "D:\\Anaconda3\\python.exe",
+  "runs": [
+    {
+      "script": "q1_quality.py",
+      "seconds": 157.6918370000203,
+      "exit_code": 0,
+      "log": "results\\project_checks\\20261009_145631_q1_quality.log"
+    },
+    {
+      "script": "q1_mixture.py",
+      "seconds": 8.209098199993605,
+      "exit_code": 0,
+      "log": "results\\project_checks\\20261009_145631_q1_mixture.log"
+    }
+  ],
+  "all_passed": true
+}

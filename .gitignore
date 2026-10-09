@@ -1,0 +1,13 @@
+real_attachments/
+__pycache__/
+*.pyc
+.idea/
+.dsh/
+results/archives/
+results/project_checks/*.log
+results/q1/*scores.csv.gz
+results/q1/normalized_domain_indicators.csv.gz
+*.aux
+*.fdb_latexmk
+*.fls
+*.xdv

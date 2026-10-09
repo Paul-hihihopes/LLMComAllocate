@@ -1,0 +1,37 @@
+{
+  "started": "20261009_143953",
+  "python": "D:\\Anaconda3\\python.exe",
+  "runs": [
+    {
+      "script": "q1_quality.py",
+      "seconds": 157.19399670002167,
+      "exit_code": 0,
+      "log": "results\\project_checks\\20261009_143953_q1_quality.log"
+    },
+    {
+      "script": "q1_mixture.py",
+      "seconds": 10.322947000007844,
+      "exit_code": 0,
+      "log": "results\\project_checks\\20261009_143953_q1_mixture.log"
+    },
+    {
+      "script": "q2_baseline.py",
+      "seconds": 1.4255517999990843,
+      "exit_code": 0,
+      "log": "results\\project_checks\\20261009_143953_q2_baseline.log"
+    },
+    {
+      "script": "q2_scaling.py",
+      "seconds": 6.956601399986539,
+      "exit_code": 0,
+      "log": "results\\project_checks\\20261009_143953_q2_scaling.log"
+    },
+    {
+      "script": "q2_validate.py",
+      "seconds": 0.9089817999920342,
+      "exit_code": 0,
+      "log": "results\\project_checks\\20261009_143953_q2_validate.log"
+    }
+  ],
+  "all_passed": true
+}

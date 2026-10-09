@@ -1,0 +1,10 @@
+﻿dataset,set,domain,n,unique_nonmissing_ids,duplicate_id_rows_within_set,share_of_all
+A1,sample,arxiv,1419,1419,0,0.00520724390378
+A1,sample,book,171,171,0,0.000627511421809
+A1,sample,c4,10000,10000,0,0.0366965743748
+A1,sample,commoncrawl,9640,9640,0,0.0353754976973
+A1,sample,github,10000,10000,0,0.0366965743748
+A1,sample,stackexchange,10000,10000,0,0.0366965743748
+A1,sample,wikipedia,10000,10000,0,0.0366965743748
+A2,arxiv_ext,arxiv,17523,17523,0,0.0643034072769
+A3,github_ext,github,203752,203752,0,0.747700042201

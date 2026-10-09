@@ -1,0 +1,91 @@
+{
+  "sources": [
+    {
+      "dataset": "A1",
+      "set": "sample",
+      "path": "real_attachments\\A_data_value\\slimpajama_quality_signal_sample.jsonl.xz",
+      "n": 51230,
+      "sha256": "14a4eeec4c7d98efd78942ddd9c1329640527f2108e73227be449bc1a8dbe579"
+    },
+    {
+      "dataset": "A2",
+      "set": "arxiv_ext",
+      "path": "real_attachments\\A_data_value\\slimpajama_quality_extended\\arxiv_part-6777d8857c6e-000486.jsonl.xz",
+      "n": 17523,
+      "sha256": "ae1e3399f84f605d994fc60b46984d742e14abb3355d8e7a91822eae1b99e16a"
+    },
+    {
+      "dataset": "A3",
+      "set": "github_ext",
+      "path": "real_attachments\\A_data_value\\slimpajama_quality_extended\\github_part-6777d8857c6e-000275.jsonl.xz",
+      "n": 203752,
+      "sha256": "7af069c71c6027a10f2013cc14dd9d5d17855c264734f69c955544ff6cff7382"
+    }
+  ],
+  "n_records": 272505,
+  "indicators": [
+    "dsir_books",
+    "dsir_wiki",
+    "dsir_math",
+    "rps_doc_word_count",
+    "rps_doc_num_sentences",
+    "rps_doc_unigram_entropy",
+    "rps_doc_frac_unique_words",
+    "rps_doc_frac_no_alph_words",
+    "rps_doc_frac_chars_top_2gram",
+    "rps_doc_frac_chars_top_3gram",
+    "rps_lines_uppercase_letter_fraction",
+    "rps_lines_ending_with_terminal_punctution_mark",
+    "rps_lines_numerical_chars_fraction",
+    "rps_doc_mean_word_length",
+    "fineweb_edu",
+    "fluency_en",
+    "modernbert_cleanliness",
+    "modernbert_readability",
+    "modernbert_reasoning",
+    "modernbert_professionalism",
+    "qurater",
+    "ad_en"
+  ],
+  "methods": {
+    "original": "原始统一方向",
+    "domain": "分领域方向",
+    "fixed_weights": "分领域方向（固定原权重）",
+    "qurater_positive": "分领域方向（QuRating保持正向）"
+  },
+  "normalization": "pooled raw 1%-99% range, then domain P=u/N=1-u/0=0.5",
+  "qurater_mapping": "unanimous signs from image rows 18-21; otherwise neutral",
+  "duplicates_preserved": true,
+  "nonmissing_unique_ids_all": 261086,
+  "all_id_missing_n": 0,
+  "extra_repeated_id_rows_all": 11419,
+  "missing_by_indicator": {
+    "dsir_books": 0,
+    "dsir_wiki": 0,
+    "dsir_math": 0,
+    "rps_doc_word_count": 0,
+    "rps_doc_num_sentences": 0,
+    "rps_doc_unigram_entropy": 0,
+    "rps_doc_frac_unique_words": 0,
+    "rps_doc_frac_no_alph_words": 0,
+    "rps_doc_frac_chars_top_2gram": 0,
+    "rps_doc_frac_chars_top_3gram": 0,
+    "rps_lines_uppercase_letter_fraction": 0,
+    "rps_lines_ending_with_terminal_punctution_mark": 0,
+    "rps_lines_numerical_chars_fraction": 0,
+    "rps_doc_mean_word_length": 0,
+    "fineweb_edu": 0,
+    "fluency_en": 0,
+    "modernbert_cleanliness": 0,
+    "modernbert_readability": 0,
+    "modernbert_reasoning": 13,
+    "modernbert_professionalism": 6,
+    "qurater": 0,
+    "ad_en": 0
+  },
+  "missing_affected_rows": 19,
+  "missing_policy": "unchanged original nan handling; neutral directions set to 0.5 including originally missing entries",
+  "validation": {
+    "baseline_reference_available": false
+  }
+}

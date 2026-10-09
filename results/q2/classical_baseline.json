@@ -1,0 +1,58 @@
+{
+  "classical": {
+    "params": {
+      "E": 1.6897975629231254,
+      "A": 0.35398032066665946,
+      "a": 0.33997658189526825,
+      "B": 1.2403055835441803,
+      "b": 0.2798781285458617
+    },
+    "n": 1176,
+    "r2_pythia": 0.9999998165821044
+  },
+  "sources_sha256": {
+    "real_attachments\\B_scaling_laws\\pythia_training_log_existing.csv": "529a59644b0f57bf3a76037838b614bfedc35e58bb26b93052e34ffc63e454c2",
+    "real_attachments\\B_scaling_laws\\cerebras_training_log.csv": "178f878cad2cb31e4ec104c670553de23818197876d824a113fdb911125951a6",
+    "real_attachments\\B_scaling_laws\\scaling_baseline.csv": "2272983ded93de35e05f9acbf95ebceedf43f283345e4be72b54fee94080391e",
+    "real_attachments\\B_scaling_laws\\published_scaling_data.csv": "dd858c5e48610e28589340d5db023d6abfb31df597506789ccdfc6a546731bbd"
+  },
+  "validation": [
+    {
+      "dataset": "B1_fit",
+      "n": 1176,
+      "R2": 0.9999998165821044,
+      "RMSE": 0.00014649608992590177,
+      "MAE": 0.00010523191301063802,
+      "bias": -9.17633316271813e-16,
+      "debiased_R2_diagnostic": 0.9999998165821044
+    },
+    {
+      "dataset": "Cerebras_transfer",
+      "n": 1029,
+      "R2": -5.072798817283222,
+      "RMSE": 1.2430848665786791,
+      "MAE": 1.1784418124920188,
+      "bias": -1.1784418124920188,
+      "debiased_R2_diagnostic": 0.38482530864171605
+    },
+    {
+      "dataset": "cross_family_transfer",
+      "n": 57,
+      "R2": 0.6045048852526933,
+      "RMSE": 0.2926666775453242,
+      "MAE": 0.22726329326678665,
+      "bias": -0.22100853266207054,
+      "debiased_R2_diagnostic": 0.83003921167703
+    },
+    {
+      "dataset": "published_transfer",
+      "n": 44,
+      "R2": 0.7305591129245537,
+      "RMSE": 0.19759507403715507,
+      "MAE": 0.1707215314627631,
+      "bias": -0.020569863146887468,
+      "debiased_R2_diagnostic": 0.7334790539299852
+    }
+  ],
+  "note": "Debiasing uses target mean: diagnostic only, not independent validation."
+}

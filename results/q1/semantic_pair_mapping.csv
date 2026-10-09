@@ -1,0 +1,12 @@
+﻿pair_id,field_j,field_k,document_condition,included,reason
+1,fineweb_edu,qurater_educational_value,强,False,跳过不存在字段：qurater_educational_value
+2,qurater_required_expertise,modernbert_professionalism,强但专业不等于优质,False,跳过不存在字段：qurater_required_expertise
+3,fluency_en,qurater_writing_style,较弱,False,跳过不存在字段：qurater_writing_style
+4,fluency_en,modernbert_readability,条件性,True,字段均存在
+5,qurater_writing_style,modernbert_readability,条件性,False,跳过不存在字段：qurater_writing_style
+6,modernbert_cleanliness,qurater_writing_style,条件性,False,跳过不存在字段：qurater_writing_style
+7,rps_doc_frac_chars_top_2gram,rps_doc_frac_chars_top_3gram,较强,True,字段均存在
+8,rps_doc_frac_unique_words,rps_doc_unigram_entropy,须控制长度,True,字段均存在
+9,rps_doc_frac_chars_top_2gram,rps_doc_frac_unique_words,须控制长度和文本类型,True,字段均存在
+10,rps_doc_frac_chars_top_3gram,rps_doc_unigram_entropy,须控制长度和文本类型,True,字段均存在
+11,rps_lines_ending_with_terminal_punctution_mark,fluency_en,仅限可比较的叙述文本,True,字段均存在

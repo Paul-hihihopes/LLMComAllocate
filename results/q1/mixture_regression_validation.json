@@ -1,0 +1,123 @@
+{
+  "original_prediction_max_abs_difference": 5.995204332975845e-15,
+  "M2_tau1_equals_independent_M1": true,
+  "shared_objective_check": true,
+  "zero_proportion_check": true,
+  "simplex_derivative_check": true,
+  "selection": "training-only nested CV; no test-target tuning",
+  "shift_r2": "diagnostic uses actual test mean; not independent prediction",
+  "M1_shared": true,
+  "M2_common_tau": true,
+  "original_22_quality_features_unchanged": true,
+  "sources": [
+    {
+      "split": "train",
+      "n": 512,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\train_mixture_1m.csv",
+      "sha256": "04a32ef4ab594376bf90e11404c033668f887c351d6a03ad3744824c7296a2d8",
+      "sum_p_min": 0.9960000000000001,
+      "sum_p_max": 1.0030000000000001,
+      "n_exact_mixtures_also_in_train": 512
+    },
+    {
+      "split": "train",
+      "n": 512,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\train_pile_loss_1m.csv",
+      "sha256": "49a959aa07ce5c20831d5abe3a7896ff0cd90a398bd407c8913fd5588be0465a",
+      "sum_p_min": 0.9960000000000001,
+      "sum_p_max": 1.0030000000000001,
+      "n_exact_mixtures_also_in_train": 512
+    },
+    {
+      "split": "1M",
+      "n": 256,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\test_mixture_1m.csv",
+      "sha256": "197267b7d6f15367e2f46c881e564c35b0d34e51b1754bb09d07e650cf8e1ce8",
+      "sum_p_min": 0.9970000000000001,
+      "sum_p_max": 1.0030000000000001,
+      "n_exact_mixtures_also_in_train": 0
+    },
+    {
+      "split": "1M",
+      "n": 256,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\test_pile_loss_1m.csv",
+      "sha256": "e027b1674f60140a65a87b5e4a59ab5f09dc33e8fd02c080682678074b160f53",
+      "sum_p_min": 0.9970000000000001,
+      "sum_p_max": 1.0030000000000001,
+      "n_exact_mixtures_also_in_train": 0
+    },
+    {
+      "split": "60M",
+      "n": 256,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\test_mixture_60m.csv",
+      "sha256": "197267b7d6f15367e2f46c881e564c35b0d34e51b1754bb09d07e650cf8e1ce8",
+      "sum_p_min": 0.9970000000000001,
+      "sum_p_max": 1.0030000000000001,
+      "n_exact_mixtures_also_in_train": 0
+    },
+    {
+      "split": "60M",
+      "n": 256,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\test_pile_loss_60m.csv",
+      "sha256": "8fe69d59ab7dd4fae4736459f4265ec93c7ed1ad1eca407346052560edc72b5b",
+      "sum_p_min": 0.9970000000000001,
+      "sum_p_max": 1.0030000000000001,
+      "n_exact_mixtures_also_in_train": 0
+    },
+    {
+      "split": "1B",
+      "n": 64,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\test_mixture_1B.csv",
+      "sha256": "dd38052949c0a5f84165bdcb3ae3a331c7f07efd9bb83848bd579dfc4ce75a2c",
+      "sum_p_min": 0.998,
+      "sum_p_max": 1.002,
+      "n_exact_mixtures_also_in_train": 0
+    },
+    {
+      "split": "1B",
+      "n": 64,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\test_pile_loss_1B.csv",
+      "sha256": "b2451e2b7fa15400688edc39e4d32f21ccbe0fb356e07d62a0e9ccddf247114f",
+      "sum_p_min": 0.998,
+      "sum_p_max": 1.002,
+      "n_exact_mixtures_also_in_train": 0
+    },
+    {
+      "split": "10B_est",
+      "n": 63,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\est_mixture_10b.csv",
+      "sha256": "880c7ca1ebef470422e2b93d9bfcd0976db7db4e34ea57047518d95fe43327d1",
+      "sum_p_min": 0.998,
+      "sum_p_max": 1.0020000000000002,
+      "n_exact_mixtures_also_in_train": 63
+    },
+    {
+      "split": "10B_est",
+      "n": 63,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\est_pile_loss_10b.csv",
+      "sha256": "226457581f3f59e15e44d8f72dee31fa7492c821699725fef47627d82cf34c0d",
+      "sum_p_min": 0.998,
+      "sum_p_max": 1.0020000000000002,
+      "n_exact_mixtures_also_in_train": 63
+    },
+    {
+      "split": "70B_est",
+      "n": 63,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\est_mixture_70b.csv",
+      "sha256": "880c7ca1ebef470422e2b93d9bfcd0976db7db4e34ea57047518d95fe43327d1",
+      "sum_p_min": 0.998,
+      "sum_p_max": 1.0020000000000002,
+      "n_exact_mixtures_also_in_train": 63
+    },
+    {
+      "split": "70B_est",
+      "n": 63,
+      "source": "real_attachments\\A_data_value\\regmix_tables\\est_pile_loss_70b.csv",
+      "sha256": "d0883b2d1a44da9386a6d629a3623c724ee291cba1ac87b6d1079e5377307682",
+      "sum_p_min": 0.998,
+      "sum_p_max": 1.0020000000000002,
+      "n_exact_mixtures_also_in_train": 63
+    }
+  ],
+  "random_seed": 42
+}

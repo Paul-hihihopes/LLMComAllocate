@@ -1,0 +1,6 @@
+﻿model,family,alpha,tau,centered_design_condition_number,nominal_parameters_including_intercepts
+Ridge_original,linear,1,1,1032.02362471,234
+Ridge_tuned,linear,0.01,1,1032.02362471,234
+M1_shared,M1,0.001,1,36.5474202568,30
+M1_independent,M1_independent,0.001,1,36.5474202568,234
+M2,M2,10,0.0003,2.57082087119,235

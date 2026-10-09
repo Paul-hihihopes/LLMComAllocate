@@ -1,0 +1,7 @@
+﻿model,initial_starts,extra_starts,SSE_initial,SSE_extra,SSE_improvement
+additive_fixed_E,5,12,1.48448845216,1.48448845216,3.68594044176e-14
+interaction_fixed_E,5,12,1.43749673856,1.43749673856,0
+quality_power_fixed_E,5,12,1.48533724091,1.48533724091,0
+additive_mixture,5,12,1.4262262813,1.4262262813,0
+interaction_mixture,5,12,1.40698512051,1.40698512051,6.66133814775e-16
+quality_power_mixture,5,12,1.42606754741,1.42606754741,2.22044604925e-16

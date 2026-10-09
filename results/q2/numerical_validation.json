@@ -1,0 +1,629 @@
+{
+  "checks_passed": 155,
+  "max_prediction_error": 5.000000413701855e-12,
+  "max_analytic_jacobian_error": 3.0281599450177055e-10,
+  "checks": [
+    {
+      "check": "unique_data_and_all_folds",
+      "passed": true
+    },
+    {
+      "check": "ND_groups_no_leakage",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/fit_unique/coverage",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/fit_unique/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/group_cv_oof/coverage",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/fold1/RMSE",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/fold2/RMSE",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/fold3/RMSE",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/fold4/RMSE",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/fold5/RMSE",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/group_cv_oof/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/N_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/N_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/D_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/D_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/B6_to_B7_new_Q/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/B8_raw_Q_transfer_diagnostic/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/Jacobian",
+      "passed": true
+    },
+    {
+      "check": "additive_fixed_E/parameter_bounds",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/fit_unique/coverage",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/fit_unique/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/group_cv_oof/coverage",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/fold1/RMSE",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/fold2/RMSE",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/fold3/RMSE",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/fold4/RMSE",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/fold5/RMSE",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/group_cv_oof/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/N_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/N_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/D_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/D_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/B6_to_B7_new_Q/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/B8_raw_Q_transfer_diagnostic/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/Jacobian",
+      "passed": true
+    },
+    {
+      "check": "interaction_fixed_E/parameter_bounds",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/fit_unique/coverage",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/fit_unique/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/group_cv_oof/coverage",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/fold1/RMSE",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/fold2/RMSE",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/fold3/RMSE",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/fold4/RMSE",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/fold5/RMSE",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/group_cv_oof/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/N_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/N_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/D_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/D_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/B6_to_B7_new_Q/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/B8_raw_Q_transfer_diagnostic/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/Jacobian",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/parameter_bounds",
+      "passed": true
+    },
+    {
+      "check": "quality_power_fixed_E/quality_endpoints_monotonic",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/fit_unique/coverage",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/fit_unique/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/group_cv_oof/coverage",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/fold1/RMSE",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/fold2/RMSE",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/fold3/RMSE",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/fold4/RMSE",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/fold5/RMSE",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/group_cv_oof/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/N_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/N_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/D_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/D_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/B6_to_B7_new_Q/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/B8_raw_Q_transfer_diagnostic/metrics",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/Jacobian",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/parameter_bounds",
+      "passed": true
+    },
+    {
+      "check": "additive_mixture/intercept_equivalence",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/fit_unique/coverage",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/fit_unique/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/group_cv_oof/coverage",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/fold1/RMSE",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/fold2/RMSE",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/fold3/RMSE",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/fold4/RMSE",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/fold5/RMSE",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/group_cv_oof/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/N_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/N_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/D_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/D_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/B6_to_B7_new_Q/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/B8_raw_Q_transfer_diagnostic/metrics",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/Jacobian",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/parameter_bounds",
+      "passed": true
+    },
+    {
+      "check": "interaction_mixture/intercept_equivalence",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/fit_unique/coverage",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/fit_unique/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/group_cv_oof/coverage",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/fold1/RMSE",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/fold2/RMSE",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/fold3/RMSE",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/fold4/RMSE",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/fold5/RMSE",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/group_cv_oof/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/N_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/N_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/D_holdout/coverage",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/D_holdout/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/B6_to_B7_new_Q/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/B8_raw_Q_transfer_diagnostic/metrics",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/Jacobian",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/parameter_bounds",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/quality_endpoints_monotonic",
+      "passed": true
+    },
+    {
+      "check": "quality_power_mixture/intercept_equivalence",
+      "passed": true
+    },
+    {
+      "check": "all_exported_predictions_reconstructed",
+      "passed": true,
+      "max_absolute_error": 5.000000413701855e-12
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/additive_fixed_E/fit_unique",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/additive_fixed_E/group_cv_oof",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/additive_fixed_E/N_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/additive_fixed_E/D_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/additive_fixed_E/B6_to_B7_new_Q",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/additive_fixed_E/B8_raw_Q_transfer_diagnostic",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/interaction_fixed_E/fit_unique",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/interaction_fixed_E/group_cv_oof",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/interaction_fixed_E/N_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/interaction_fixed_E/D_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/interaction_fixed_E/B6_to_B7_new_Q",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_fixed_E/interaction_fixed_E/B8_raw_Q_transfer_diagnostic",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/additive_mixture/fit_unique",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/additive_mixture/group_cv_oof",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/additive_mixture/N_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/additive_mixture/D_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/additive_mixture/B6_to_B7_new_Q",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/additive_mixture/B8_raw_Q_transfer_diagnostic",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/interaction_mixture/fit_unique",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/interaction_mixture/group_cv_oof",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/interaction_mixture/N_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/interaction_mixture/D_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/interaction_mixture/B6_to_B7_new_Q",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/interaction_mixture/B8_raw_Q_transfer_diagnostic",
+      "passed": true
+    },
+    {
+      "check": "comparison/additive_mixture/additive_fixed_E/fit_unique",
+      "passed": true
+    },
+    {
+      "check": "comparison/additive_mixture/additive_fixed_E/group_cv_oof",
+      "passed": true
+    },
+    {
+      "check": "comparison/additive_mixture/additive_fixed_E/N_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/additive_mixture/additive_fixed_E/D_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/additive_mixture/additive_fixed_E/B6_to_B7_new_Q",
+      "passed": true
+    },
+    {
+      "check": "comparison/additive_mixture/additive_fixed_E/B8_raw_Q_transfer_diagnostic",
+      "passed": true
+    },
+    {
+      "check": "comparison/interaction_mixture/interaction_fixed_E/fit_unique",
+      "passed": true
+    },
+    {
+      "check": "comparison/interaction_mixture/interaction_fixed_E/group_cv_oof",
+      "passed": true
+    },
+    {
+      "check": "comparison/interaction_mixture/interaction_fixed_E/N_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/interaction_mixture/interaction_fixed_E/D_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/interaction_mixture/interaction_fixed_E/B6_to_B7_new_Q",
+      "passed": true
+    },
+    {
+      "check": "comparison/interaction_mixture/interaction_fixed_E/B8_raw_Q_transfer_diagnostic",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/quality_power_fixed_E/fit_unique",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/quality_power_fixed_E/group_cv_oof",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/quality_power_fixed_E/N_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/quality_power_fixed_E/D_holdout",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/quality_power_fixed_E/B6_to_B7_new_Q",
+      "passed": true
+    },
+    {
+      "check": "comparison/quality_power_mixture/quality_power_fixed_E/B8_raw_Q_transfer_diagnostic",
+      "passed": true
+    },
+    {
+      "check": "multistart_stability",
+      "passed": true,
+      "max_SSE_improvement": 3.68594044176e-14
+    },
+    {
+      "check": "sources_sha256",
+      "passed": true
+    },
+    {
+      "check": "code_sha256",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "all_passed": true,
+  "checks": {
+    "finite_inputs": {
+      "passed": true
+    },
+    "physical_bounds": {
+      "passed": true
+    },
+    "simplex": {
+      "passed": true,
+      "max_sum_error": 9.73716662855395e-11,
+      "minimum_fraction": 0.0
+    },
+    "independent_H": {
+      "passed": true,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    "mixture_lower_bound": {
+      "passed": true,
+      "minimum_H_minus_Hstar": -3.326207365095257e-11
+    },
+    "raw_unit_cost_recalculation": {
+      "passed": true,
+      "max_train_attention_relative_error": 9.769962616701378e-15,
+      "max_quality_error_over_budget": 1.4848e-15
+    },
+    "budget": {
+      "passed": true,
+      "maximum_utilization": 1.000000000000007
+    },
+    "cost_shares": {
+      "passed": true
+    },
+    "attention_ratio_and_critical_context": {
+      "passed": true,
+      "max_ratio_error": 8.881784197001252e-16,
+      "ratio_2048": 0.06826666666666667,
+      "ratio_4096": 0.13653333333333334
+    },
+    "independent_loss": {
+      "passed": true,
+      "max_absolute_error": 6.217248937900877e-15
+    },
+    "PSO_best_history_monotone": {
+      "passed": true
+    },
+    "PSO_evaluation_accounting": {
+      "passed": true,
+      "evaluations_per_run": 102612
+    },
+    "complete_factorial_runs": {
+      "passed": true,
+      "expected": 720,
+      "observed": 720
+    },
+    "reference_grid_refinement": {
+      "passed": true,
+      "scenarios": 36,
+      "max_loss_change": 4.884981308350689e-15
+    },
+    "no_solution_below_reference": {
+      "passed": true,
+      "minimum_gap": -6.2299054803816e-11
+    },
+    "recipe_KKT": {
+      "passed": true,
+      "max_active_stationarity_error": 0.0
+    },
+    "fixed_recipe_unchanged": {
+      "passed": true
+    },
+    "main_formula_selected_by_Q2": {
+      "passed": true
+    },
+    "context_condition_comparison_complete": {
+      "passed": true
+    },
+    "PSO_seed_reproducibility": {
+      "passed": true,
+      "max_absolute_error": 4.547473508864641e-13
+    },
+    "source_hash:results\\q1\\mixture_models.json": {
+      "passed": true
+    },
+    "source_hash:results\\q2\\model_results.json": {
+      "passed": true
+    },
+    "source_hash:results\\q2\\model_parameters.csv": {
+      "passed": true
+    },
+    "source_hash:results\\q2\\selected_model.json": {
+      "passed": true
+    },
+    "source_hash:real_attachments\\C_efficiency_evolution\\model_architecture_metadata.csv": {
+      "passed": true
+    },
+    "implementation_hash": {
+      "passed": true
+    }
+  },
+  "validator_sha256": "dd3378a9d3fb9821c1cf8de2e0318cb13452c41cdc535e8dcaee9d9f97eb8c11"
+}
